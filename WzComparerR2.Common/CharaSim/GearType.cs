@@ -380,6 +380,10 @@ namespace WzComparerR2.CharaSim
         /// </summary>
         hexSeeker = 135403,
         /// <summary>
+        /// 罗盘 135404
+        /// </summary>
+        compass = 135404,
+        /// <summary>
         /// 手杖
         /// </summary>
         cane = 136,
@@ -492,6 +496,10 @@ namespace WzComparerR2.CharaSim
         /// 点装武器 170
         /// </summary>
         cashWeapon = 170,
+        /// <summary>
+        /// 星灵权杖 171
+        /// </summary>
+        celestialLight = 171,
         /// <summary>
         /// 武器 -1
         /// </summary>

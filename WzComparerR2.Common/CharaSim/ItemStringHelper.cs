@@ -362,6 +362,9 @@ namespace WzComparerR2.CharaSim
 
                 case GearType.jewel: return "珠宝";
 
+                case GearType.celestialLight: return "星光权杖";
+                case GearType.compass: return "罗盘";
+
                 default: return null;
             }
         }
@@ -494,6 +497,9 @@ namespace WzComparerR2.CharaSim
 
                 case GearType.chakram:
                 case GearType.hexSeeker: return GetExtraJobReqString(154);
+
+                case GearType.celestialLight:
+                case GearType.compass: return GetExtraJobReqString(182);
                 default: return null;
             }
         }
@@ -533,6 +539,7 @@ namespace WzComparerR2.CharaSim
                 case 162: return "元素师可穿戴装备";
                 case 164: return "虎影可穿戴装备";
                 case 175: return "墨玄可穿戴装备";
+                case 182: return "施亚可穿戴装备";
                 default: return null;
             }
         }
