@@ -42,6 +42,7 @@ namespace WzComparerR2.CharaSimControl
         public static readonly Font TahomaFont = new Font("Tahoma", 12f, GraphicsUnit.Pixel);
         public static readonly Font SetItemPropFont = new Font("宋体", 12f, GraphicsUnit.Pixel);
         public static readonly Font ItemReqLevelFont = new Font("宋体", 11f, GraphicsUnit.Pixel);
+        public static readonly Font NewCTFamiliarNameFont = new Font("Noto Sans SC", 15f, FontStyle.Bold, GraphicsUnit.Pixel);
 
         public static Font ItemNameFont2 { get; private set; }
         public static Font ItemDetailFont2 { get; private set; }

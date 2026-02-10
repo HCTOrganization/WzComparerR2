@@ -20,7 +20,7 @@ namespace WzComparerR2.CharaSimControl
 
             this.Size = new Size(1, 1);
             this.HideOnHover = true;
-            this.FamiliarRender = new FamiliarTooltipRender();
+            this.FamiliarRender = new FamiliarTooltipRender2();
             this.GearRender = new GearTooltipRender2();
             this.ItemRender = new ItemTooltipRender2();
             this.SkillRender = new SkillTooltipRender2();
@@ -48,7 +48,7 @@ namespace WzComparerR2.CharaSimControl
         public Character Character { get; set; }
 
         
-        public FamiliarTooltipRender FamiliarRender { get; private set; }
+        public FamiliarTooltipRender2 FamiliarRender { get; private set; }
         public GearTooltipRender2 GearRender { get; private set; }
         public ItemTooltipRender2 ItemRender { get; private set; }
         public SkillTooltipRender2 SkillRender { get; private set; }

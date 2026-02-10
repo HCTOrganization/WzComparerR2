@@ -578,13 +578,12 @@ namespace WzComparerR2.CharaSimControl
             TooltipRender renderer = this.FamiliarRender;
             if (renderer == null)
             {
-                FamiliarTooltipRender defaultRenderer = new FamiliarTooltipRender();
+                FamiliarTooltipRender2 defaultRenderer = new FamiliarTooltipRender2();
                 defaultRenderer.StringLinker = this.StringLinker;
                 defaultRenderer.ShowObjectID = this.ShowObjectID;
                 defaultRenderer.AllowOutOfBounds = false;
                 defaultRenderer.ItemID = this.item.ItemID;
                 defaultRenderer.FamiliarTier = this.item.Grade;
-                defaultRenderer.UseAssembleUI = false;
                 renderer = defaultRenderer;
             }
             renderer.TargetItem = familiar;
